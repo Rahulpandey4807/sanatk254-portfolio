@@ -193,8 +193,10 @@ export function Projects() {
         ))}
       </div>
       <p className="mt-5 text-sm text-mut">
-        Add project photographs to public/images and render them with
-        next/image. No project photos were supplied.
+        Note: All projects were completed as part of my academic curriculum or professional work experience. The descriptions and details provided are based on my personal contributions and learning outcomes from each project.
+      </p>
+      <p className="mt-2 text-sm text-mut">
+        For more information or to discuss potential collaborations, please feel free to reach out via the contact section below.
       </p>
     </S>
   );

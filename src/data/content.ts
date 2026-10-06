@@ -15,9 +15,7 @@ export const experience = [
     "Prepared GA (General Arrangement) drawings for roll set and structural assemblies.",
     "Prepared manufacturing drawings for machine components as per design specifications.",
     "Developed detailed 2D/3D technical drawings and BOMs in compliance with ISO and industry-specific quality standards for automotive and railway sectors.",
-    "Created fabrication drawings for structural components, ensuring precise tolerances for assembly and welding.",
-    "Drafted and implemented Quality Assurance Plans (QAP) for new roll set models, defining inspection criteria and dimensional check-points for zero-defect manufacturing.",
-    "Managed engineering data within the ERP system, including creation and maintenance of BOMs, part numbers, and routing for seamless production workflow."] },
+    ] },
   { role: "Assistant Purchase — Purchase", company: "VE Commercial Vehicles Limited", dates: "February 2025 – January 2026", place: "Pithampur, Indore", points: [
     "Prepared cost sheets to verify supplier costs and balanced prices to optimize sourcing.",
     "Implemented strategic PO cost alignment to improve purchasing accuracy and cost transparency.",
@@ -32,6 +30,9 @@ export const experience = [
 ];
 
 export const projects = [
+  { name: "Auto-Amendment Implementation", year: "2025", tech: ["SAP Automation", "Procurement Process Improvement"],
+    desc: "Executed a project for Volvo Eicher Commercial Vehicles, Pithampur, Indore, to automate the amendment process for Purchase Orders (POs) and Scheduling Agreements using a digital SAP solution.",
+    details: ["Developed and implemented a digital SAP solution to automate the amendment process for POs and Scheduling Agreements.", "Reduced manual intervention and streamlined the procurement cycle."] },
   { name: "Portable Bio Gas Digester", year: "2024", tech: ["Anaerobic Digestion", "Thermal Insulation"],
     desc: "Developed a small-scale plastic biogas digester for converting cow dung into biogas for cooking and heating purposes.",
     details: ["Anaerobic digestion: microbes break down organic matter without oxygen, producing biogas.", "Thermal insulation is treated as a design consideration.", "Renewable energy application: cooking and heating."] },
@@ -44,6 +45,7 @@ export const projects = [
   { name: "Multi-Use Cutting Tool", year: "2022", tech: ["CAD Modelling", "Fabrication Tools", "Welding Machine"],
     desc: "Designed and fabricated a portable zigzag cutting machine for precise cutting operations. The project focused on reducing manual effort in small-scale industries.",
     details: ["Designed in CAD, then fabricated.", "Purpose: reduce manual effort in small-scale operations."] },
+  
 ];
 
 export const drawings = ["GA (General Arrangement) Drawing", "Manufacturing Drawing of Machine", "Mill Arrangement Drawing", "Stand Drawing", "Layout Drawing", "Fabrication Drawing"];
