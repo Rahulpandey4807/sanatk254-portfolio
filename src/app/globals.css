@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--bg:246 247 249;--fg:21 24 29;--mut:90 98 112;--card:255 255 255;--line:217 221 228;--acc:31 95 214}
+@media (prefers-color-scheme:dark){:root{--bg:20 23 28;--fg:238 240 243;--mut:154 163 178;--card:27 31 38;--line:45 51 61;--acc:110 160 255}}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:rgb(var(--bg));color:rgb(var(--fg));font-family:var(--font-archivo),system-ui,sans-serif}
+:focus-visible{outline:3px solid rgb(var(--acc));outline-offset:3px}
+:root.dark{--bg:20 23 28;--fg:238 240 243;--mut:154 163 178;--card:27 31 38;--line:45 51 61;--acc:110 160 255;color-scheme:dark}
+@keyframes bar{from{width:0}to{width:100%}}
